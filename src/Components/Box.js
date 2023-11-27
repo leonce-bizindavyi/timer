@@ -88,6 +88,7 @@ class Box extends Component {
     render() {
         return (
             <div className='boxed--view'>
+                <h2>LEGEND TIMER</h2>
                 <div className='boxed--view__box'>
                     <ListContainer 
                     onDelete={this.handleDelete} 
